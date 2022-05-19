@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom"
 
 const Naviguation = () => {
     return (
-        <div className="naviguation">
+        <div className="navigation">
             <ul>
                 <NavLink to="/">
                     <li>Accueil</li>
@@ -25,4 +25,4 @@ const Naviguation = () => {
     );
 };
 
-export default Naviguation;
+export default Navigation;
