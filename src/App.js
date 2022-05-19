@@ -1,5 +1,5 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react';
 import Accueil from './pages/Accueil';
 import Formulaire_de_contact from './pages/Formulaire_de_contact';
 import Infos_utiles from './pages/Infos_utiles';
