@@ -1,13 +1,16 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import CarteActu from '../components/CarteActu/CarteActu';
+import Header from '../components/Header/Header';
 
 const Accueil = () => {
     return (
         <div>
-            <Navigation />
-           <h1>Accueil</h1> 
+            <Header/>
+            <Navigation/>
+            <CarteActu/>
         </div>
     );
-}; 
+};
 
 export default Accueil;

@@ -1,10 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React from 'react';
-import Accueil from './pages/Accueil';
-import Formulaire_de_contact from './pages/Formulaire_de_contact';
-import Infos_utiles from './pages/Infos_utiles';
-import Liste_des_membres from './pages/Liste_des_membres';
-import Notre_histoire from './pages/Notre_histoire';
+import Accueil from './Pages/Accueil';
+import Formulaire_de_contact from './Pages/Formulaire_de_contact';
+import Infos_utiles from './Pages/Infos_utiles';
+import Liste_des_membres from './Pages/Liste_des_membres';
+import Notre_histoire from './Pages/Notre_histoire';
+
 
 const App = () => {
   return (
