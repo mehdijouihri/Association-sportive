@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 
 
-const Infos_utiles = () => {
+const InfosUtiles = () => {
     return (
         <div>
             <Navigation />
@@ -11,4 +11,4 @@ const Infos_utiles = () => {
     );
 };
 
-export default Infos_utiles;
+export default InfosUtiles;

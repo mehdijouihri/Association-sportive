@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 
-const Notre_histoire = () => {
+const Histoire = () => {
     return (
         <div>
             <Navigation />
@@ -10,4 +10,4 @@ const Notre_histoire = () => {
     );
 };
 
-export default Notre_histoire;
+export default Histoire;

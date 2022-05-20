@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 
 
-const Liste_des_membres = () => {
+const Membres = () => {
     return (
         <div>
             <Navigation />
@@ -11,4 +11,4 @@ const Liste_des_membres = () => {
     );
 };
 
-export default Liste_des_membres;
+export default Membres;

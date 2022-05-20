@@ -1,21 +1,21 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import React from 'react';
-import Accueil from './Pages/Accueil';
-import Formulaire_de_contact from './Pages/Formulaire_de_contact';
-import Infos_utiles from './Pages/Infos_utiles';
-import Liste_des_membres from './Pages/Liste_des_membres';
-import Notre_histoire from './Pages/Notre_histoire';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
+import "./styles/App.css";
+import Accueil from "./pages/accueil";
+import Contact from "./pages/contact";
+import InfosUtiles from "./pages/infos-utiles";
+import Histoire from "./pages/notre-histoire";
+import Membres from "./pages/membres";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/Accueil" element={<Accueil />} />
-        <Route path="/Formulaire_de_contact" element={<Formulaire_de_contact />} />
-        <Route path="/Infos_utiles" element={<Infos_utiles />} />
-        <Route path="/Liste_des_membres" element={<Liste_des_membres />} />
-        <Route path="/Notre_histoire" element={<Notre_histoire />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/infos-utiles" element={<InfosUtiles />} />
+        <Route path="/membres" element={<Membres />} />
+        <Route path="/notre-histoire" element={<Histoire />} />
         {/* path=* fonctionne si jamais l'url ne correspond à rien de déclaré au dessus */}
         <Route path="*" element={<Accueil />} />
       </Routes>

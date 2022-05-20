@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 
 
-const Formulaire_de_contact = () => {
+const Contact = () => {
     return (
         <div>
             <Navigation />
@@ -11,4 +11,4 @@ const Formulaire_de_contact = () => {
     );
 };
 
-export default Formulaire_de_contact;
+export default Contact;

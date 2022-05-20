@@ -8,17 +8,17 @@ const Naviguation = () => {
                 <NavLink to="/">
                     <li>Accueil</li>
                 </NavLink>
-                <NavLink to="/Formulaire_de_contact">
-                    <li>Formulaire_de_contact</li>
+                <NavLink to="/contact">
+                    <li>Contact</li>
                 </NavLink>
-                <NavLink to="/Infos_utiles">
-                    <li>Infos_utiles</li>
+                <NavLink to="/infos-utiles">
+                    <li>Infos utiles</li>
                 </NavLink>
-                <NavLink to="/Liste_des_membres">
-                    <li>Liste_des_membres</li>
+                <NavLink to="/membres">
+                    <li>Membres</li>
                 </NavLink>
-                <NavLink to="/Notre_histoire">
-                    <li>Notre_histoire</li>
+                <NavLink to="/notre-histoire">
+                    <li>Notre histoire</li>
                 </NavLink>
             </ul>
         </div>
