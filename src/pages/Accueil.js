@@ -1,6 +1,5 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import '../Styles/pages/Accueil.css';
 
 const Accueil = () => {
     return (
