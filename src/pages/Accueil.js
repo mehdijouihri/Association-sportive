@@ -8,6 +8,6 @@ const Accueil = () => {
            <h1>Accueil</h1> 
         </div>
     );
-};
+}; 
 
 export default Accueil;
