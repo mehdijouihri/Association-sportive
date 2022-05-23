@@ -1,0 +1,18 @@
+.circle_arrow {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    background: #FFF;
+    border: none;
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.circle_arrow:hover {
+    transform: scale(1.1);
+}
+
+.circle_arrow img {
+    width: 15px;
+}
