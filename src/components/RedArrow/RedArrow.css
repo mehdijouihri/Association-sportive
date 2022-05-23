@@ -1,0 +1,18 @@
+.red_arrow {
+    height: 40px;
+    width: 40px;
+    border-radius: 60px;
+    background: transparent;
+    border: 2px solid var(--blue);
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.red_arrow:hover {
+    transform: scale(1.1);
+}
+
+.red_arrow img {
+    width: 10px;
+}
