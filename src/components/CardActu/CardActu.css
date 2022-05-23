@@ -1,0 +1,46 @@
+.card_actu {
+    display: block;
+    max-width: 380px;
+}
+
+.card_actu img {
+    height: 215px;
+    width: 100%;
+    max-width: 380px;
+    object-fit: cover;
+}
+
+.actu_details {
+    display: flex;
+    align-items: center;
+}
+
+.actu_details p {
+    margin-bottom: 0;
+}
+
+.actu_details .actu_category {
+    display: block;
+    color: var(--red);
+    letter-spacing: 0.1em;
+    border-right: 1px solid #C4C4C4;
+    padding-right: 10px;
+}
+
+.actu_details .actu_date {
+    font-size: 14px;
+    color: var(--darkgrey);
+    padding-left: 10px;
+    letter-spacing: 0.1em;
+}
+
+.card_actu h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 720px) {
+    .card_actu {
+        padding: 1rem;
+    }
+}
