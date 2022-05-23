@@ -1,0 +1,38 @@
+.card_player {
+    max-width: 380px;
+}
+
+.card_player img {
+    height: 355px;
+    width: 100%;
+    max-width: 380px;
+    object-fit: cover;
+}
+
+.player_details {
+    background: #fff;
+    padding: 20px 25px;
+}
+
+.player_role {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: var(--red);
+}
+
+.player_name {
+    font-size: 32px;
+    margin: 0 0 15px;
+}
+
+.player_link {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 780px) {
+    .card_player {
+        padding: 1rem;
+    }
+}
