@@ -1,11 +1,11 @@
 import React from 'react';
-import '../components/Header/Header';
+import Navbar from '../components/Header/Navbar.js';
+
 
 const Accueil = () => {
     return (
         <div>
-            <Header />
-            <p>Homepage</p>
+            <Navbar />
         </div>
     );
 };

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React from "react";
 import "./styles/App.css";
+import React from "react";
 import Accueil from "./pages/accueil";
 import Contact from "./pages/contact";
 import InfosUtiles from "./pages/infos-utiles";
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/Accueil" element={<Accueil />} />
+        <Route path="/accueil" element={<Accueil />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/infos-utiles" element={<InfosUtiles />} />
         <Route path="/membres" element={<Membres />} />
