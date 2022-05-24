@@ -1,155 +1,50 @@
-import React, { useEffect } from "react";
-import ReactDOM from "react-dom";
-import { Formik, Form, useField, useFormikContext } from "formik";
-import * as Yup from "yup";
+import React from 'react';
 import "./contact.css";
 
-const MyTextInput = ({ label, ...props }) => {
-  // useField() returns [formik.getFieldProps(), formik.getFieldMeta()]
-  // which we can spread on <input> and alse replace ErrorMessage entirely.
-  const [field, meta] = useField(props);
-  return (
-    <>
-      <label htmlFor={props.id || props.name}>{label}</label>
-      <input className="text-input" {...field} {...props} />
-      {meta.touched && meta.error ? (
-        <div className="error">{meta.error}</div>
-      ) : null}
-    </>
-  );
+const Contact = () => {
+    return (
+
+        <>
+            <div class="contactez-nous">
+                <h1>Vous souhaitez prendre contact avec nous ?</h1>
+                <p>Merci de remplir le formulaire ci-dessous :</p>
+                <form action="/page-traitement-donnees" method="post">
+                    <div className='partien'>
+                        <div className='formule'>
+                            <label for="nom"></label>
+                            <input type="text" id="nom" name="nom" placeholder="Nom" required></input>
+                        </div>
+                        <div className='formule'>
+                            <label for="prenom"></label>
+                            <input type="text" id="nom" name="nom" placeholder="Prénom*" required></input>
+                        </div>
+                    </div>
+                    <div className='partiea'>
+                        <div>
+                            <label for="numtel"></label>
+                            <input type="text" id="nom" name="nom" placeholder="Numéro de tel*" required></input>
+                        </div>
+                        <div className='formule'>
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="Adresse mail*" required></input>
+                        </div>
+                    </div>
+
+                    <div className='formule'>
+                        <label for="message"></label>
+                        <textarea id="message" name="message" placeholder="Indiquez votre message ici..." required></textarea>
+                    </div>
+                    <div className='vendame'>
+                        <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter"></input>
+                            <label for="subscribeNews">J'accepte la politique de confidentialité</label>
+                    </div>
+                    <div className='formule'>
+                        <button className='boutoncontact' type="submit">Envoyer mon message</button>
+                    </div>
+                </form>
+            </div>
+        </>
+    );
 };
 
-const MyCheckbox = ({ children, ...props }) => {
-  const [field, meta] = useField({ ...props, type: "checkbox" });
-  return (
-    <>
-      <label className="checkbox">
-        <input {...field} {...props} type="checkbox" />
-        {children}
-      </label>
-      {meta.touched && meta.error ? (
-        <div className="error">{meta.error}</div>
-      ) : null}
-    </>
-  );
-};
-
-// Styled components ....
-const StyledSelect = styled.select`
-  color: var(--blue);
-`;
-
-const StyledErrorMessage = styled.div`
-  font-size: 12px;
-  color: var(--red-600);
-  width: 400px;
-  margin-top: 0.25rem;
-  &:before {
-    content: "❌ ";
-    font-size: 10px;
-  }
-  @media (prefers-color-scheme: dark) {
-    color: var(--red-300);
-  }
-`;
-
-const StyledLabel = styled.label`
-  margin-top: 1rem;
-`;
-
-const MySelect = ({ label, ...props }) => {
-  // useField() returns [formik.getFieldProps(), formik.getFieldMeta()]
-  // which we can spread on <input> and alse replace ErrorMessage entirely.
-  const [field, meta] = useField(props);
-  return (
-    <>
-      <StyledLabel htmlFor={props.id || props.name}>{label}</StyledLabel>
-      <StyledSelect {...field} {...props} />
-      {meta.touched && meta.error ? (
-        <StyledErrorMessage>{meta.error}</StyledErrorMessage>
-      ) : null}
-    </>
-  );
-};
-
-// And now we can use these
-const SignupForm = () => {
-  return (
-    <>
-      <h1>Subscribe!</h1>
-      <Formik
-        initialValues={{
-          firstName: "",
-          lastName: "",
-          email: "",
-          acceptedTerms: false, // added for our checkbox
-          jobType: "" // added for our select
-        }}
-        validationSchema={Yup.object({
-          firstName: Yup.string()
-            .max(15, "Must be 15 characters or less")
-            .required("Required"),
-          lastName: Yup.string()
-            .max(20, "Must be 20 characters or less")
-            .required("Required"),
-          email: Yup.string()
-            .email("Invalid email addresss`")
-            .required("Required"),
-          acceptedTerms: Yup.boolean()
-            .required("Required")
-            .oneOf([true], "You must accept the terms and conditions."),
-          jobType: Yup.string()
-            // specify the set of valid values for job type
-            // @see http://bit.ly/yup-mixed-oneOf
-            .oneOf(
-              ["designer", "development", "product", "other"],
-              "Invalid Job Type"
-            )
-            .required("Required")
-        })}
-        onSubmit={async (values, { setSubmitting }) => {
-          await new Promise(r => setTimeout(r, 500));
-          setSubmitting(false);
-        }}
-      >
-        <Form>
-          <MyTextInput
-            label="First Name"
-            name="firstName"
-            type="text"
-            placeholder="Jane"
-          />
-          <MyTextInput
-            label="Last Name"
-            name="lastName"
-            type="text"
-            placeholder="Doe"
-          />
-          <MyTextInput
-            label="Email Address"
-            name="email"
-            type="email"
-            placeholder="jane@formik.com"
-          />
-          <MySelect label="Job Type" name="jobType">
-            <option value="">Select a job type</option>
-            <option value="designer">Designer</option>
-            <option value="development">Developer</option>
-            <option value="product">Product Manager</option>
-            <option value="other">Other</option>
-          </MySelect>
-          <MyCheckbox name="acceptedTerms">
-            I accept the terms and conditions
-          </MyCheckbox>
-
-          <button type="submit">Submit</button>
-        </Form>
-      </Formik>
-    </>
-  );
-};
-
-function App() {
-  return <SignupForm />;
-}
 export default Contact;

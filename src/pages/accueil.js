@@ -4,6 +4,8 @@ const Accueil = () => {
     return (
         <div>
             <p>Homepage</p>
+            <Contact />
+            
         </div>
     );
 };
