@@ -4,20 +4,21 @@ height: 100%;
 }
 
 nav {
+    height: 77px;
     position: fixed;
     left: 0px;
     top: 0px;
     width: 100%;
-    background-color: rgba(44, 51, 86, 1);
+    background-color: white;
 }
 
 .list {
-    height: 100px;
+    height: 77px;
     margin-left: 22%;
     margin-top: -100px;
     margin-bottom: 0px;
     list-style-type: none;
-    background-color: rgba(44, 51, 86, 1);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +27,7 @@ nav {
 .items {
     font-size: 20px;
     text-transform: uppercase;
-    color: #f1f1f1;
+    color: rgba(16, 22, 47, 1);
     cursor: pointer;
     margin: auto;
 }
@@ -38,8 +39,8 @@ nav {
     top :4px;
     z-index :50;
     padding:0px 8px; 
-    color:#fff;
-    background: rgba(44, 51, 86, 1);
+    color:rgba(16, 22, 47, 1);
+    background: white;
     border-radius:5px;
     cursor:pointer;
 }
@@ -57,7 +58,7 @@ nav {
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: #cdcdcd;
+    background: rgba(16, 22, 47, 1);
     border-radius: 3px;
     
     z-index: 1;
@@ -66,7 +67,7 @@ nav {
 #volley {
     text-align: center;
     border: solid;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-left: 50px;
     width:170px;
     height: 49px;
@@ -80,7 +81,7 @@ nav {
 
 
 
-@media screen and (max-width: 1013px){
+@media screen and (max-width: 1025px){
 
     .list {
         flex-direction: column;
@@ -88,6 +89,7 @@ nav {
         margin-top: -70px;
         float: none;
         margin: auto;
+        margin: -18px;
     }
     .items:nth-child(1){
         margin-top: 50px;
@@ -104,24 +106,15 @@ nav {
     }
 
     #volley {
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
         border: solid;
-        margin-top: 8px;
-        margin-left: 34%;
         width:170px;
-        height: 49px;
         z-index: 40;
         background: #ffffff;
-         border-radius:100px / 100px;
+        border-radius:100px / 100px;
     }
 
 
-}
-
-@media screen and (max-width: 580px){
-
-    
- #volley {
-     margin-left: 28%;
- }
 }
