@@ -1,0 +1,66 @@
+      [{
+        "imageDuJoueur":"",
+        "nom": "Jean Patry",
+        "role": "arriere droit",
+        "dateDeNaissance": "1996-12-27",
+        "taille": 207,
+        "poids": 94,
+        "HauteurDattaque": 334,
+        "HauteurDeBlock": 317
+
+      },
+      {
+        "imageDuJoueur":"",
+        "nom": "Jeannette Kappi",
+        "role": "avant droit",
+        "dateDeNaissance": "1997-08-20",
+        "taille": 190,
+        "poids": 86,
+        "HauteurDattaque": 314,
+        "HauteurDeBlock": 302
+
+      },
+      {
+        "imageDuJoueur":"",
+        "nom": "Jenia Grebennikov",
+        "role": "avant gauche",
+        "dateDeNaissance": "1994-01-25",
+        "taille": 201,
+        "poids": 95,
+        "HauteurDattaque": 328,
+        "HauteurDeBlock": 313
+
+      },
+      {
+        "imageDuJoueur":"",
+        "nom": "Barthélémy Chinenyeze",
+        "role": "arrière gauche",
+        "dateDeNaissance": "1996-12-27",
+        "taille": 201,
+        "poids": 101,
+        "HauteurDattaque": 340,
+        "HauteurDeBlock": 311
+
+      },
+      {
+        "imageDuJoueur":"",
+        "nom": "Nicolas Le Goff",
+        "role": "arrière centre",
+        "dateDeNaissance": "1996-04-10",
+        "taille": 205,
+        "poids": 90,
+        "HauteurDattaque": 305,
+        "HauteurDeBlock": 303
+
+      },
+      {
+        "imageDuJoueur":"",
+        "nom": "Daryl Bultor",
+        "role": "arriere droit",
+        "dateDeNaissance": "1993-01-25",
+        "taille": 197,
+        "poids": 100,
+        "HauteurDattaque": 323,
+        "HauteurDeBlock": 310
+
+      }]
