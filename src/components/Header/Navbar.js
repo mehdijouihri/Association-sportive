@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     <nav>
       <h2 id='volley'>VOLLEY</h2>
-      {(toggleMenu || screenWidth > 500) && (
+      {(toggleMenu || screenWidth > 1013) && (
       <ul className="list">
       <li className="items">Accueil</li>
       <li className="items">Infos utiles</li>
