@@ -1,0 +1,13 @@
+.button_primary {
+    background: var(--blue);
+    color: #FFF;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+.button_primary:hover {
+    background: #FFF;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
