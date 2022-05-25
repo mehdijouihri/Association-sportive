@@ -1,12 +1,13 @@
-import React from 'react';
-import Navbar from '../components/Header/Navbar';
-import voley1 from '../assets/image/voley1.jpeg'
+import React from 'react'
+import Navbar from '../components/Header/Navbar'
+import voley1 from '../assets/images/voley1.jpeg'
+import  '../styles/notre-histoire.css'
 const Histoire = () => {
     return (
         <div>
             <Navbar/>
             <h1>Notre histoire</h1>   
-            <div classVoley="photo" src={voley1} alt="image not found"/>
+            <img className="vloey1" src={voley1}/>
         </div>
     );
 };
