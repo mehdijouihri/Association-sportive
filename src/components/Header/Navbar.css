@@ -13,6 +13,7 @@ nav {
 }
 
 .list {
+    z-index: 0;
     height: 77px;
     margin-left: 22%;
     margin-top: -100px;
@@ -84,12 +85,13 @@ nav {
 @media screen and (max-width: 1025px){
 
     .list {
+        z-index: 1000;
         flex-direction: column;
         height: auto;
         margin-top: -70px;
         float: none;
         margin: auto;
-        margin: -18px;
+        margin: -19px;
     }
     .items:nth-child(1){
         margin-top: 50px;
