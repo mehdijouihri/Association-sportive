@@ -13,7 +13,6 @@ nav {
 }
 
 .list {
-    z-index: 0;
     height: 77px;
     margin-left: 22%;
     margin-top: -100px;
@@ -31,6 +30,7 @@ nav {
     color: rgba(16, 22, 47, 1);
     cursor: pointer;
     margin: auto;
+
 }
 
 .btn {
