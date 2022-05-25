@@ -1,13 +1,18 @@
 .button_secondary {
-    background: #FFF;
-    color: var(--blue);
+    background:black;
+    color:#eee;
     padding: 10px 25px;
     border: 1px solid var(--blue);
     transition: all 0.3s;
+    width: 120px;
+    height: 20px;
+    border-radius: 8px;
 }
-
 .button_secondary:hover {
-    background: var(--blue);
-    color: #FFF;
+    background:#eee;
+    color:black;
     border: 1px solid transparent;
+    width: 120px;
+    height: 20px;
+    border-radius: 8px;
 }
