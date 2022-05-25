@@ -20,7 +20,7 @@
 }
 
 .descriptionmembre {
-    top: 15%;
+    top: 20%;
     right: 25%;
     height: 0px;
     position: fixed;
@@ -78,7 +78,7 @@
     }
 
     .descriptionmembre {
-        top: 60%;
+        top: 80%;
         right: 20%;
         height: auto;
         margin-left: auto;
