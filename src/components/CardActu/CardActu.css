@@ -21,10 +21,12 @@
 
 .actu_details .actu_category {
     display: block;
+    font-size: 14px;
     color: var(--red);
     letter-spacing: 0.1em;
     border-right: 1px solid #C4C4C4;
     padding-right: 10px;
+    text-transform: uppercase;
 }
 
 .actu_details .actu_date {
