@@ -7,6 +7,8 @@ const InfosUtiles = () => {
         <div>
             <Navigation />
             <h1>Infos utiles</h1>
+            
+
         </div>
     );
 };
