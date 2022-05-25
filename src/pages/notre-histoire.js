@@ -1,14 +1,12 @@
 import React from 'react';
 import Navbar from '../components/Header/Navbar';
-// import photo from '/src/assets/images'
+import voley1 from '../assets/image/voley1.jpeg'
 const Histoire = () => {
     return (
         <div>
             <Navbar/>
             <h1>Notre histoire</h1>   
-            {/* <div classImage="photo">
-            <img src="/src/assets/images/voley1.jpeg"  alt="image not found"></img>
-            </div>  */}
+            <div classVoley="photo" src={voley1} alt="image not found"/>
         </div>
     );
 };
