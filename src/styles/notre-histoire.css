@@ -1,3 +1,43 @@
-*{
-    background-color: aqua;
+
+.voley1{
+    border: 1px solid;
+    width: 98%;
+    height: 500px;
+    box-shadow: 10px 5px 5px rgb(149, 129, 129);
+
+}
+.voley2{
+    margin:1%;
+    width: 400px;
+    height: 500px;
+    box-shadow: 10px 5px 5px #000;
+}
+container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction:row;
+}
+container .texte{
+    background-color: rgb(231, 231, 231);
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 300px;
+
+}
+h1,p{
+    margin-top: 40px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container2{
+    background-color: rgb(231, 226, 226);
+    margin-left: 10%;
+    margin-right: 10%;
 }
