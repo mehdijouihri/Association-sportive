@@ -51,8 +51,12 @@ h1,p{
 }
 @media only screen and (max-width: 600px) {
    .voley1, .voley2{
-       width: 100%;
+       width:100%;
        margin: auto;
+   }
+   .texte h1 {
+       margin-left:0;  
+       text-align: left;
    }
    container{
     margin-top: 20px;
