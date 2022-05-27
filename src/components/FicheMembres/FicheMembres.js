@@ -6,7 +6,17 @@ import membre1 from '../../assets/Images/membre1.jpg';
 
 const FicheMembres = () => {
     return (
+        <>
+        <div id='pageDestination'>
+            <p>Accueil &gt;</p>
+            <p>Membres &gt;</p>
+            <p>Fiche du membre</p>
+        </div>
         <div className='whitebg'>
+
+        <div className="membre1">
+          <img  src={membre1}/>
+        </div>
 
         <div className='descriptionmembre'>
             <strong>
@@ -23,11 +33,8 @@ const FicheMembres = () => {
             <p><strong>2018 :</strong> Médaille d'argent Volleyball Nations League</p>
         </div>
 
-        <div>
-          <img className="membre1" src={membre1}/>
         </div>
-
-        </div>
+        </>
     );
 };
 

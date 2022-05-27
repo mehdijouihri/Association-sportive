@@ -1,52 +1,58 @@
+#pageDestination {
+    display: flex;
+    margin-top: 100px;
+    
+}
+#pageDestination P 
+{
+    margin: 2px;
+}
+
 .whitebg {
+    
     background-color: white;
     width: 100%;
-    height: 800px;
-    margin-top: 140px;
-    padding-bottom: 8%;
-    left: 0px;
-    right: 0px;
-    position: fixed;
-    min-height: 510px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
 }
 
 .membre1 {
     width: 340px;
-    height: 490px;
-    padding-top: 4%;
     display: flex;
-    margin-left: 25%;
-    position: relative;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.membre1 img 
+{
+    display: flex;
+    width: 340px;
+    height: 490px;
+    margin-right: 50px;
 }
 
 .descriptionmembre {
-    top: 20%;
-    right: 25%;
-    height: 0px;
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
 }
 
 .numero {
     color: rgba(178, 29, 10, 1);
 }
 
-@media screen and (max-width: 1500px){
-.membre1 {
-    margin-left: 15%;
-}
-
-}
 
 @media screen and (max-width: 1250px){
-    .membre1 {
-        margin-left: 20%;
-    }
-
-    .descriptionmembre {
-    top: 15%;
-    right: 5%;
-    height: 0px;
-    position: fixed;
+    .whitebg {
+        background-color: white;
+        width: 100%;
+        height: 800px;
+        padding-bottom: 8%;
+        min-height: 510px;
     }
     
     }
@@ -56,13 +62,14 @@
 
 @media screen and (max-width: 1000px){
 
+    .whitebg {
+        flex-direction: column;
+        padding-top: 225px;
+    }
+
     .membre1 {
-        width: 340px;
-        height: 490px;
-        padding-top: 4%;
-        margin-left: 5%;
+        margin-left: auto;
         margin-right: auto;
-        display: flex;
     }
 
     .descriptionmembre {
@@ -70,24 +77,3 @@
         margin-right: auto;
     }
 }
-
-@media screen and (max-width: 840px){
-    .membre1 {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .descriptionmembre {
-        top: 80%;
-        right: 20%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        }
-
-    .whitebg {
-        height: 1200px;
-
-    }
-    
-    }
