@@ -1,4 +1,6 @@
 .button_primary {
+    display: block;
+    width: fit-content;
     background: var(--blue);
     color: #FFF;
     padding: 10px 25px;
