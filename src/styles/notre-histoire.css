@@ -22,15 +22,12 @@ container{
     flex-direction:row;
 }
 container .texte{
-    background-color: rgb(231, 231, 231);
     width: 1100px;
     height: 400px;
     display: flex;
     flex-direction:column;
-    margin-top: 60px;
-    margin-left: 100px;
-
 }
+
 h1,p{
     margin-top: 30px;
     margin-left: 8px;
@@ -41,8 +38,7 @@ h1,p{
 
 .container2{
     background-color: rgb(231, 226, 226);
-    margin-left: 10%;
-    margin-right: 10%;
+   
     
 }
 
@@ -52,4 +48,27 @@ h1,p{
 }
 .container2, p{
     text-align: center;
+}
+@media only screen and (max-width: 600px) {
+   .voley1, .voley2{
+       width: 100%;
+       margin: auto;
+   }
+   container{
+    margin-top: 20px;
+    height:500px;
+    display: flex;
+    flex-direction:column;
+}
+container h1, p{
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 10px;
+    text-align: center;
+}
+container .texte p{
+    width: 350px;
+    display: flex;
+    flex-direction:column;
+}
 }

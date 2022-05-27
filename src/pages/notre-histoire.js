@@ -6,12 +6,13 @@ import  '../styles/notre-histoire.css'
 import ButtonPrimary from '../components/ButtonPrimary/ButtonPrimary'
 import ButtonSecondary from '../components/ButtonSecondary/ButtonSecondary'
 
+
 const Histoire = () => {
     return (
         <div>
             <Navbar/>
             <img className="voley1" src={voley1}/>
-            <container> 
+            <container>
             <img className="voley2" src={voley2}/>
             <div className='texte'>
                 <h1>Notre club de volley <span> existe depuis 1996</span></h1>
