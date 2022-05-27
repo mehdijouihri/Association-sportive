@@ -1,6 +1,6 @@
-[
+export const POSTS = [
   {
-    "img": "",
+    "img": require('../images/actu01.jpg'),
     "category": "compétition",
     "date": "24 mai 2022",
     "title": "European Golden League : Les Bleues dans le grand bain",
@@ -40,5 +40,5 @@
     "date": "6 mai 2022",
     "title": "L'équipe de France à Rennes",
     "content": "Les internationales françaises ayant quasiment toutes terminé leur saison avec leurs clubs respectifs, à l'exception des finalistes de Ligue A féminine (Nina Stojiljkovic pour Le Cannet, Léandra Olinga Andela pour Mulhouse), Emile Rousseaux et son staff les ont réunies depuis jeudi à Rennes, où elles vont rester jusqu'au 17 mai pour préparer la première échéance de la saison internationale, la Golden European League. Une épreuve dont les Bleues avaient frôlé le Final Four l'an dernier, mais qui avait idéalement lancé leur saison, achevée sur une très satisfaisante place en quarts de finale de l'Euro 2021 face à la Serbie.\n\n    Les partenaires de la capitaine Héléna Cazaute affronteront le Portugal à deux reprises en match amical, lors de leur séjour breton, dans la salle Colette-Besson, les 13 (20h30) et 15 mai 2022 (17h). Elles se rendront ensuite aux Pays-Bas pour un deuxième stage (17-20 mai), puis à Dunkerque, où elles entameront la Golden European League par la réception de l'Espagne le 25 mai à 20h. Elles effectueront ensuite un court trajet jusqu'à Harnes pour disputer leur deuxième match le 1er juin à 20h contre la Bosnie-Herzégovine.\n    \n    L'équipe tricolore se déplacera ensuite à Tuzla (Bosnie), avec le match retour le 4 juin, puis en Espagne, à Valladolid, avec un affrontement le 11 juin contre la sélection ibérique. Le premier de la poule A se qualifiera pour le Final Four (16-19 juin), dont le lieu sera défini en fonction des équipes en lice. \n    \n    L'été se poursuivra pour le groupe tricolore avec un stage du 12 au 25 juillet à Dinard ou Saint-Brieuc, une éventuelle participation à la FIVB Challenger Cup du 26 au 31 juillet à Zadar (Croatie) si la France parvient à se qualifier via la Golden League, un nouveau stage, cette fois à Montpellier, du 14 au 26 août, ponctué d'un match amical contre la Turquie le 20 août, avant un ultime stage du 2 au 8 septembre à Calalese (Italie) et une Tournée de France face à des adversaires prestigieux du 8 au 18 septembre."
-  }
-]
+  },
+];
