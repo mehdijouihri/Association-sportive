@@ -1,5 +1,12 @@
 .card_player {
     max-width: 380px;
+    min-width: 320px;
+    margin-right: 15px;
+    margin-bottom: 35px;
+}
+
+.card_player:last-child {
+    margin-right: 0px;
 }
 
 .card_player img {
@@ -19,10 +26,11 @@
     margin-top: 0px;
     margin-bottom: 5px;
     color: var(--red);
+    text-transform: uppercase;
 }
 
 .player_name {
-    font-size: 32px;
+    font-size: 26px;
     margin: 0 0 15px;
 }
 
@@ -31,8 +39,14 @@
     font-weight: 700;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 780px) {
     .card_player {
-        padding: 1rem;
+        width: 380px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .player_name {
+        font-size: 32px;
     }
 }

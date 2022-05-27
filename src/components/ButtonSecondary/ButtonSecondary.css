@@ -1,4 +1,6 @@
 .button_secondary {
+    display: block;
+    width: fit-content;
     background: #FFF;
     color: var(--blue);
     padding: 10px 25px;
