@@ -71,4 +71,8 @@ container .texte p{
     display: flex;
     flex-direction:column;
 }
+container .bt{
+    margin-right: 700px;
+   justify-items: flex-start;
+}
 }
