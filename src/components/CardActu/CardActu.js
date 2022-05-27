@@ -2,7 +2,7 @@ import './CardActu.css';
 
 const CardActu = (props) => {
     return (
-        <article className="card_actu">
+        <article className="card_actu" key={props.key}>
             <img src={props.img} alt="" />
             <div className="actu_details">
                 <p className="actu_category">{props.category}</p>
