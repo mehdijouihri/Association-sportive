@@ -33,13 +33,7 @@ h1,p{
     margin-left: 8px;
     display: flex;
     flex-direction: column;
-    
-}
-
-.container2{
-    background-color: rgb(231, 226, 226);
-   
-    
+     
 }
 
 .bt{
@@ -49,10 +43,10 @@ h1,p{
 .container2, p{
     text-align: center;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
    .voley1, .voley2{
+       object-fit: cover;
        width:100%;
-       margin: auto;
    }
    .texte h1 {
        margin-left:0;  
@@ -67,7 +61,7 @@ h1,p{
 container h1, p{
     margin-left: 0;
     margin-right: 0;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
 }
 container .texte p{
@@ -78,5 +72,9 @@ container .texte p{
 container .bt{
     margin-right: 700px;
    justify-items: flex-start;
+}
+.container2{
+    margin-top: 40%;
+
 }
 }
