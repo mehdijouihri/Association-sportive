@@ -1,0 +1,83 @@
+.actus {
+  background: #fff;
+}
+
+.actus .actus_bloc {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: auto;
+}
+
+.joueurs .joueurs_bloc {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: auto;
+}
+
+.intro_home {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+:is(.intro_home) h2,
+h3 {
+  margin-bottom: 0px;
+}
+
+.intro_home p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.intro_home button {
+  display: none;
+}
+
+.histoire {
+  background: #fff;
+}
+
+.histoire img {
+  width: 100%;
+}
+
+.histoire .buttons_group a {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1026px) {
+  .histoire .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 70px;
+    padding: 3.5rem 2rem;
+  }
+  .histoire img {
+    width: 50%;
+  }
+  .histoire_details {
+    width: 40%;
+  }
+  .histoire_details h4 {
+    margin-top: 0px;
+  }
+  .histoire .buttons_group {
+    display: flex;
+    gap: 25px;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .actus .actus_bloc {
+    justify-content: space-between;
+  }
+
+  .joueurs .joueurs_bloc {
+    justify-content: space-between;
+  }
+}
