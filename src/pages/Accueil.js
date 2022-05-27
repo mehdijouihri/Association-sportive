@@ -47,8 +47,11 @@ const Accueil = () => {
       <section className="joueurs">
           <div className="container">
         <div className="intro_home">
+          <div>
           <h3>Joueur</h3>
           <p>Découvrez notre équipe</p>
+          </div>
+          <RedArrow />
         </div>
         <div className="joueurs_bloc">
         {PLAYERS.slice(0, 3).map((data, key) => {
