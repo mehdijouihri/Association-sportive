@@ -1,11 +1,10 @@
 import React from 'react';
-import Navbar from '../components/Header/Navbar.js';
-
-
+import Footer from '../components/footer/footer';
 const Accueil = () => {
     return (
         <div>
-            <Navbar />
+            <p>Homepage</p>
+            <Footer />
         </div>
     );
 };
