@@ -15,20 +15,20 @@
     
     box-shadow: 10px 5px 5px #000;
 }
-container{
+.histoire-page container{
     margin-top: 20px;
     height:500px;
     display: flex;
     flex-direction:row;
 }
-.container .texte{
+.histoire-page container .texte{
     width: 1100px;
     height: 400px;
     display: flex;
     flex-direction:column;
 }
 
-h1,p{
+.histoire-page h1, .histoire-page p{
     margin-top: 30px;
     margin-left: 8px;
     display: flex;
@@ -40,7 +40,7 @@ h1,p{
     display: flex;
     justify-content: space-evenly;
 }
-.container2 p {
+.histoire-page .container2 p {
     text-align: center;
 }
 @media only screen and (max-width: 767px) {
@@ -48,32 +48,32 @@ h1,p{
        object-fit: cover;
        width:100%;
    }
-   .texte h1 {
+   .histoire-page .texte h1 {
        margin-left:0;  
        text-align: left;
    }
-   container{
+   .histoire-page container{
     margin-top: 20px;
     height:500px;
     display: flex;
     flex-direction:column;
 }
-container h1, p{
+.histoire-page container h1, .histoire-page p{
     margin-left: 0;
     margin-right: 0;
     font-size: 12px;
     text-align: center;
 }
-container .texte p{
+.histoire-page container .texte p{
     width: 350px;
     display: flex;
     flex-direction:column;
 }
-container .bt{
+.histoire-page container .bt{
     margin-right: 700px;
    justify-items: flex-start;
 }
-.container2{
+.histoire-page .container2{
     margin-top: 40%;
 
 }
