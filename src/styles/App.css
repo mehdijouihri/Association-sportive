@@ -98,3 +98,9 @@ a {
     transform: rotate(360deg);
   }
 }
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
