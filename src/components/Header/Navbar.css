@@ -4,8 +4,10 @@ height: 100%;
 }
 
 nav {
+    border-bottom: 1px solid rgba(218, 218, 218, 1);
+    z-index: 39;
     height: 77px;
-    position: sticky;
+    position: absolute;
     left: 0px;
     top: 0px;
     width: 100%;
@@ -31,6 +33,7 @@ nav {
     color: rgba(16, 22, 47, 1);
     cursor: pointer;
     margin: auto;
+
 }
 .items:hover {
     color: burlywood;
@@ -44,7 +47,7 @@ nav {
 
 .btn {
     display: none;
-    position :fixed; 
+    position :absolute; 
     left: 12px;
     top :4px;
     z-index :50;
@@ -70,7 +73,6 @@ nav {
 #menuToggle input
 {
     opacity: 0;
-    z-index: 2; 
 }
 
 #menuToggle span
@@ -82,8 +84,6 @@ nav {
     position: relative;
     background: rgba(16, 22, 47, 1);
     border-radius: 3px;
-    
-    z-index: 1;
 }
 
 #volley {
@@ -106,15 +106,15 @@ nav {
 @media screen and (max-width: 1025px){
 
     .list {
+        border-bottom: 1px solid rgba(218, 218, 218, 1);
+        border-right: 1px solid rgba(218, 218, 218, 1);
+
+        width: 300px;
         flex-direction: column;
         height: auto;
         margin-top: -70px;
-        float: none;
         margin: auto;
-        margin: -18px;
-    }
-    .items:nth-child(1){
-        margin-top: 50px;
+        margin: -17px;
     }
     .items {
         
@@ -133,7 +133,6 @@ nav {
         text-align: center;
         border: solid;
         width:170px;
-        z-index: 40;
         background: #ffffff;
         border-radius:100px / 100px;
     }
