@@ -10,6 +10,7 @@ import CardPlayer from "../components/CardPlayer/CardPlayer";
 import RedArrow from "../components/RedArrow/RedArrow.js";
 import ButtonPrimary from '../components/ButtonPrimary/ButtonPrimary';
 import ButtonSecondary from '../components/ButtonSecondary/ButtonSecondary';
+import Footer from '../components/Footer/Footer';
 
 const Accueil = () => {
   return (
@@ -89,6 +90,7 @@ const Accueil = () => {
         </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
