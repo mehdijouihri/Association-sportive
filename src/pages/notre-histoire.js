@@ -9,7 +9,7 @@ import ButtonSecondary from '../components/ButtonSecondary/ButtonSecondary'
 
 const Histoire = () => {
     return (
-        <div>
+        <div className='histoire-page'>
             <Navbar/>
             <img className="voley1" src={voley1}/>
             <container>
