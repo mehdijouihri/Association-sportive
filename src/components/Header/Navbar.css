@@ -26,6 +26,7 @@ nav {
     align-items: center;
     padding-left: 0;
 }
+
 .items {
     font-size: 20px;
     text-transform: uppercase;
@@ -33,6 +34,15 @@ nav {
     cursor: pointer;
     margin: auto;
 
+}
+.items:hover {
+    color: burlywood;
+    animation:slidebg 2s linear infinite;
+    border-radius: 7px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: auto;
 }
 
 .btn {
@@ -44,6 +54,18 @@ nav {
     padding:0px 8px; 
     color:rgba(16, 22, 47, 1);
     background: white;
+    border-radius:5px;
+    cursor:pointer;
+}
+.btn:hover {
+    display: none;
+    position :fixed; 
+    left: 12px;
+    top :4px;
+    z-index :50;
+    padding:0px 8px; 
+    color:rgba(16, 22, 47, 1);
+    background: green;
     border-radius:5px;
     cursor:pointer;
 }

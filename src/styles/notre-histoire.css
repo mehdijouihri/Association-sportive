@@ -1,0 +1,80 @@
+
+
+.voley1{
+    
+    border: 1px solid;
+    width: 100%;
+    height: 600px;
+    
+    box-shadow: 10px 5px 5px rgb(149, 129, 129);
+
+}
+.voley2{
+    margin:1%;
+    width: 30%;
+    
+    box-shadow: 10px 5px 5px #000;
+}
+container{
+    margin-top: 20px;
+    height:500px;
+    display: flex;
+    flex-direction:row;
+}
+container .texte{
+    width: 1100px;
+    height: 400px;
+    display: flex;
+    flex-direction:column;
+}
+
+h1,p{
+    margin-top: 30px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.bt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container2, p{
+    text-align: center;
+}
+@media only screen and (max-width: 767px) {
+   .voley1, .voley2{
+       object-fit: cover;
+       width:100%;
+   }
+   .texte h1 {
+       margin-left:0;  
+       text-align: left;
+   }
+   container{
+    margin-top: 20px;
+    height:500px;
+    display: flex;
+    flex-direction:column;
+}
+container h1, p{
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 12px;
+    text-align: center;
+}
+container .texte p{
+    width: 350px;
+    display: flex;
+    flex-direction:column;
+}
+container .bt{
+    margin-right: 700px;
+   justify-items: flex-start;
+}
+.container2{
+    margin-top: 40%;
+
+}
+}
