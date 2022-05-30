@@ -30,8 +30,8 @@ export const PLAYERS = [
     "HBlock": 313
   },
   {
-    "img": "",
-    "name": "Barthélémy Chinenyeze",
+    "img": require('../images/player01.jpg'),
+    "name": "Bastien Simplion",
     "role": "arrière gauche",
     "birth": "1996-12-27",
     "taille": 201,
@@ -40,7 +40,7 @@ export const PLAYERS = [
     "HBlock": 311
   },
   {
-    "img": "",
+    "img": require('../images/player01.jpg'),
     "name": "Nicolas Le Goff",
     "role": "arrière centre",
     "birth": "1996-04-10",
@@ -50,7 +50,7 @@ export const PLAYERS = [
     "HBlock": 303
   },
   {
-    "img": "",
+    "img": require('../images/player01.jpg'),
     "name": "Daryl Bultor",
     "role": "arriere droit",
     "birth": "1993-01-25",

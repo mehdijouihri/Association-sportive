@@ -1,0 +1,70 @@
+.affiche{
+    width: 100%;
+    padding: 15rem 0 10rem;
+    background-image: url('../assets/images/histoire.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.titre_membres{
+    text-align: left;
+    margin-left: 10%;
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+}
+.equipe_titre{
+    display: flex;
+    align-items: center;
+    margin:40px;
+}
+.equipe_phrase{
+    margin: 0 0 0 20px;
+}
+.equipe_joueur{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.membre_equipe{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+
+}
+.membre_phrase{
+    margin: 0 0 0 20px;
+}
+.membre_joueur{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .equipe_joueur{
+        
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .membre_joueur{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+
+    .titre_membres{
+        font-size: 44px;
+    }
+
+    .equipe_joueur{
+        grid-template-columns: 1fr;
+    }
+    .membre_joueur{
+        grid-template-columns: 1fr;
+    }
+    
+}
