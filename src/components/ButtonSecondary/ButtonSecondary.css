@@ -1,6 +1,8 @@
 .button_secondary {
-    background:rgb(5, 5, 5);
-    color:#eee;
+    display: block;
+    width: fit-content;
+    background: #FFF;
+    color: var(--blue);
     padding: 10px 25px;
     border: 1px solid var(--blue);
     cursor: pointer;
