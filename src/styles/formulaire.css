@@ -8,6 +8,15 @@
     flex-direction: row;
     
 }
+.np input{
+    background-color: rgb(195, 200, 199); 
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-style:inset
+
+}
+
 .tm {
     margin-top: 4%;
 
@@ -18,24 +27,51 @@
     justify-content: space-between;
     flex-direction: row;
 }
+.tm input{
+    background-color: rgb(195, 200, 199); 
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-style:inset
+
+}
+
 textarea{
-    margin-top: 4%;
+    margin-top: .5%;
     margin-left: 10%;
     height: 150px;
     width: 900px;;
 }
+
+
+textarea{
+    border-top-width: thin;
+border-bottom-width:thick;
+border-left-width: 1px;
+border-right-width: 10px;
+}
 button{
-    margin-top: 2%;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+
+}
+button:hover{
+    background-color: rgb(103, 103, 122);
+    margin-top: 1%;
     margin-left: 10%;
     width: 100px;
     height: 30px;
     border-radius: 6px;
 }
-button:hover{
-    background-color: rgb(103, 103, 122);
+.titre{
     margin-top: 2%;
     margin-left: 10%;
-    width: 100px;
-    height: 30px;
-    border-radius: 6px;
+    text-align: left;
+}
+.titre span{
+
+    color: rgb(96, 96, 98);
 }

@@ -12,7 +12,11 @@ function Formulaire() {
    
       <form onSubmit={handleSubmit}>
       <label htmlFor="email">
-        Nous contactez
+        <div class="titre">
+            Vous souhaitez prendre<br/>
+            contact avec nous ?<br/>
+            <span> Merci de remplir le formulaire ci-dessous :</span>
+        </div>
       </label>
   
   <container class="np">
@@ -21,7 +25,7 @@ function Formulaire() {
             <input
             id="Nom"
             type="nom" 
-            name="Nom" placeholder='nom'
+            name="Nom" placeholder=' nom'
             />
       </div>
 
@@ -31,7 +35,7 @@ function Formulaire() {
             id="Prenom"
             type="prenom" 
             name="Prénom"
-            placeholder='prenom'
+            placeholder=' prenom'
             />
       </div>      
       </container>
@@ -42,7 +46,7 @@ function Formulaire() {
         id="email"
         type="email" 
         name="email"
-        placeholder='e-mail'
+        placeholder=' e-mail'
       />
        </div>
 
@@ -52,7 +56,7 @@ function Formulaire() {
         id="Numero"
         type="numero" 
         name="Numéro de tél"
-        placeholder='numero  Tel'
+        placeholder=' numero  Tel'
       />
       </div>
       
