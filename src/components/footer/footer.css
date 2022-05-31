@@ -1,6 +1,6 @@
 @media screen and (max-width: 690px){
     .footercomplet {
-        position: fixed;
+        position: relative;
         width: 100%;
         bottom: 0; 
     }
@@ -68,7 +68,7 @@
     }
 @media screen and (min-width: 690px){
     .footercomplet {
-        position: fixed;
+        position: relative;
         width: 100%;
         bottom: 0; 
     }
@@ -141,7 +141,7 @@
     }
 @media screen and (min-width: 1280px){
 .footercomplet {
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0; 
 }

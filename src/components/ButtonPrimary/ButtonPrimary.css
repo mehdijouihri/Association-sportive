@@ -4,43 +4,10 @@
     padding: 10px 25px;
     border: 1px solid transparent;
     transition: all 0.3s;
-    width: 120px;
-    height: 20px;
-    border-radius: 8px;
-
 }
 
 .button_primary:hover {
-    background:#eee;
-    color:black;
+    background: #FFF;
+    color: var(--blue);
     border: 1px solid var(--blue);
-    width: 120px;
-    height: 20px;
-    border-radius: 8px;
-    
-
-}
-@media only screen and (max-width: 600px) {
-    .button_primary {
-    background:black;
-    color:#eee;
-    padding: 10px 25px;
-    border: 1px solid transparent;
-    transition: all 0.3s;
-    width: 90px;
-    height: 10px;
-    border-radius: 8px;
-    font-size: 12px;
-
-}
-.button_primary:hover {
-    background:#eee;
-    color:black;
-    border: 1px solid var(--blue);
-    width: 90px;
-    height: 10px;
-    border-radius: 8px;
-    font-size: 12px;
-
-}
 }

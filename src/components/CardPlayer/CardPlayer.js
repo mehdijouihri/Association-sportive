@@ -1,5 +1,5 @@
 import '../CardPlayer/CardPlayer.css'
-
+import React from 'react';
 const CardPlayer = (props) => {
     return (
         <div className="card_player">

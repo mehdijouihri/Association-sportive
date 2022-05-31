@@ -1,0 +1,20 @@
+
+.actu01{
+    
+    border: 1px solid;
+    width: 100%;
+    height: 500px;
+    
+    box-shadow: 10px 5px 5px rgb(149, 129, 129);
+
+}
+.histoire{
+    margin:1%;
+    width: 30%;
+    
+    box-shadow: 10px 5px 5px #000;
+}
+container  {
+    display: flex;
+    flex-direction: row;
+}

@@ -7,6 +7,7 @@ import InfosUtiles from "./pages/infos-utiles";
 import Histoire from "./pages/notre-histoire";
 import Membres from "./pages/membres";
 
+
 const App = () => {
   return (
     <BrowserRouter>

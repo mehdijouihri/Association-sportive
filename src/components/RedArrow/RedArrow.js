@@ -1,5 +1,6 @@
 import ArrowSvg from '../../assets/icons/red-arrow.svg';
 import '../RedArrow/RedArrow.css'
+import React from 'react';
 
 const RedArrow = (props) => {
     return (

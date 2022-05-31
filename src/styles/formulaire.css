@@ -1,0 +1,41 @@
+.np {
+    margin-top: 4%;
+    text-decoration: none;
+    width: 900px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.tm {
+    margin-top: 4%;
+
+    width: 900px;
+    
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+textarea{
+    margin-top: 4%;
+    margin-left: 10%;
+    height: 150px;
+    width: 900px;;
+}
+button{
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+}
+button:hover{
+    background-color: rgb(103, 103, 122);
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+}
