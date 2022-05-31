@@ -1,5 +1,6 @@
 import '../FirstPost/FirstPost.css'
 import RedArrow from '../RedArrow/RedArrow'
+import React from 'react';
 
 const FirstPost = (props) => {
    return (

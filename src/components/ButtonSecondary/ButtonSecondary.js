@@ -1,4 +1,5 @@
 import '../ButtonSecondary/ButtonSecondary.css'
+import React from 'react'
 
 const ButtonSecondary = (props) => {
     return (

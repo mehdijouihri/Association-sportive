@@ -1,5 +1,5 @@
 import './CardActu.css';
-
+import React from 'react';
 const CardActu = (props) => {
     return (
         <article className="card_actu" key={props.key}>

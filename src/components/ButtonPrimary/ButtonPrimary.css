@@ -1,8 +1,6 @@
 .button_primary {
-    display: block;
-    width: fit-content;
-    background: var(--blue);
-    color: #FFF;
+    background:black;
+    color:#eee;
     padding: 10px 25px;
     border: 1px solid transparent;
     transition: all 0.3s;

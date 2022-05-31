@@ -21,7 +21,7 @@
     display: flex;
     flex-direction:row;
 }
-.histoire-page container .texte{
+.histoire-page .texte{
     width: 1100px;
     height: 400px;
     display: flex;
@@ -37,6 +37,7 @@
 }
 
 .bt{
+    margin-top: 5%;
     display: flex;
     justify-content: space-evenly;
 }
