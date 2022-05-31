@@ -33,6 +33,11 @@ h3 {
   margin: 0 auto;
 }
 
+.red_larrow {
+  display: none;
+  margin-left: 10px;
+}
+
 @media screen and (max-width: 1200px) {
   .joueurs .joueurs-bloc {
     justify-content: space-between;
