@@ -1,6 +1,6 @@
 import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
-import '../styles/formulaire.css'
+// import { useForm, ValidationError } from '@formspree/react';
+import '../styles/formulaire.css';
 
 
 function Formulaire() {
