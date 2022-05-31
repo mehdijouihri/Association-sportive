@@ -5,6 +5,7 @@ import voley2 from '../assets/images/voley2.jpeg'
 import  '../styles/notre-histoire.css'
 import ButtonPrimary from '../components/ButtonPrimary/ButtonPrimary'
 import ButtonSecondary from '../components/ButtonSecondary/ButtonSecondary'
+import Footer from '../components/footer/footer'
 
 
 
@@ -35,7 +36,7 @@ const Histoire = () => {
                 <p>COLORADO SPRINGS, Colo. (April 21, 2022) – Hundreds of club teams will heat up Phoenix on April 22-24 at the USA Volleyball Girls 18s Junior National Championship. A record 350 teams with approximately 4,000 athletes are expected to compete in seven divisions this weekend at the Phoenix Convention Center. Most of the athletes will be...</p>
                 <p>Sunshine Volleyball Club (Pacific Palisades, Calif./SCVA) won two of the seven titles handed out Sunday at the 2022 USA Volleyball Girls 18 Junior National Championship.</p>
        </div>
-
+        <Footer/>
         </div>
        
         

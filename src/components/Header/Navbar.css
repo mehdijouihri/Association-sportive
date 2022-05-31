@@ -4,16 +4,6 @@ html {
 }
 
 nav {
-<<<<<<< HEAD
-    border-bottom: 1px solid rgba(218, 218, 218, 1);
-    z-index: 39;
-    height: 77px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    background-color: white;
-=======
   position: sticky;
   top: 0;
   display: flex;
@@ -24,7 +14,6 @@ nav {
   background-color: white;
   border-bottom: 1px solid #dadada;
   z-index: 99;
->>>>>>> 1a7c51d42d421846f74f63d259cde898f89f686e
 }
 
 .list {
@@ -36,14 +25,6 @@ nav {
 }
 
 .items {
-<<<<<<< HEAD
-    font-size: 20px;
-    text-transform: uppercase;
-    color: rgba(16, 22, 47, 1);
-    cursor: pointer;
-    margin: auto;
-
-=======
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
@@ -51,112 +32,9 @@ nav {
   border-bottom: 2px solid transparent;
   margin: 0 15px;
   transition: all 0.3s;
->>>>>>> 1a7c51d42d421846f74f63d259cde898f89f686e
 }
 
 .items:hover {
-<<<<<<< HEAD
-    color: burlywood;
-    animation:slidebg 2s linear infinite;
-    border-radius: 7px;
-    font-size: 20px;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: auto;
-}
-
-.btn {
-    display: none;
-    position :absolute; 
-    left: 12px;
-    top :4px;
-    z-index :50;
-    padding:0px 8px; 
-    color:rgba(16, 22, 47, 1);
-    background: white;
-    border-radius:5px;
-    cursor:pointer;
-}
-.btn:hover {
-    display: none;
-    position :fixed; 
-    left: 12px;
-    top :4px;
-    z-index :50;
-    padding:0px 8px; 
-    color:rgba(16, 22, 47, 1);
-    background: green;
-    border-radius:5px;
-    cursor:pointer;
-}
-
-#menuToggle input
-{
-    opacity: 0;
-}
-
-#menuToggle span
-{
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    background: rgba(16, 22, 47, 1);
-    border-radius: 3px;
-}
-
-#volley {
-    text-align: center;
-    border: solid;
-    margin-top: 10px;
-    margin-left: 50px;
-    width:170px;
-    height: 49px;
-    z-index: 40;
-    background: #ffffff;
-    border-radius:100px / 100px;
-}
-
-
-
-
-
-
-@media screen and (max-width: 1025px){
-
-    .list {
-        border-bottom: 1px solid rgba(218, 218, 218, 1);
-        border-right: 1px solid rgba(218, 218, 218, 1);
-
-        width: 300px;
-        flex-direction: column;
-        height: auto;
-        margin-top: -70px;
-        margin: auto;
-        margin: -17px;
-    }
-    .items {
-        
-        width: 100%;
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
-        text-align: center;
-        padding: 20px 0;
-    }
-    .btn {
-        display: block;
-    }
-
-    #volley {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        border: solid;
-        width:170px;
-        background: #ffffff;
-        border-radius:100px / 100px;
-    }
-=======
   border-bottom: 2px solid var(--blue);
 }
 
@@ -252,7 +130,6 @@ nav {
   background: #ffffff;
   border-radius: 100px / 100px;
 }
->>>>>>> 1a7c51d42d421846f74f63d259cde898f89f686e
 
 #volley_logo h2 {
   font-size: 30px;
