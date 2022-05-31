@@ -12,6 +12,7 @@
     width: 120px;
     height: 20px;
     border-radius: 8px;
+    
 }
 .button_secondary:hover {
     background:#eee;
