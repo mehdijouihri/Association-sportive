@@ -1,52 +1,60 @@
-import React, {useState, useEffect} from 'react'
-import './Navbar.css'
+import React, { useState, useEffect } from "react";
+import "./Navbar.css";
 
 export default function Navbar() {
-  const [toggleMenu, setToggleMenu] = useState(false)
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   const toggleNav = () => {
-    setToggleMenu(!toggleMenu)
-  }
+    setToggleMenu(!toggleMenu);
+  };
 
   useEffect(() => {
-
     const changeWidth = () => {
       setScreenWidth(window.innerWidth);
-    }
+    };
 
-    window.addEventListener('resize', changeWidth)
+    window.addEventListener("resize", changeWidth);
 
     return () => {
-        window.removeEventListener('resize', changeWidth)
-    }
-
-  }, [])
+      window.removeEventListener("resize", changeWidth);
+    };
+  }, []);
 
   return (
     <nav>
-      <h2 id='volley'>VOLLEY</h2>
+      <a href="/" id="volley_logo">
+        <h2>VOLLEY</h2>
+      </a>
       {(toggleMenu || screenWidth > 1013) && (
-      <ul className="list">
-      <li className="items">Accueil</li>
-      <li className="items">Infos utiles</li>
-      <li className="items">Membres</li>
-      <li className="items">Notre histoire</li>
-      <li className="items">Contact</li>
-      </ul>
+        <ul className="list">
+          <li className="items">
+            <a href="/">Accueil</a>
+          </li>
+          <li className="items">
+            <a href="./infos-utiles">Infos utiles</a>
+          </li>
+          <li className="items">
+            <a href="./membres">Membres</a>
+          </li>
+          <li className="items">
+            <a href="./notre-histoire">Notre histoire</a>
+          </li>
+          <li className="items">
+            <a href="./contact">Contact</a>
+          </li>
+        </ul>
       )}
 
-<div onClick={toggleNav}  id="menuToggle" className='btn'>
-
-    <input type="checkbox" />
-
-    <span></span>
-    <span></span>
-    <span></span>
-
-</div>
-
-  </nav>
-  )
+      <div
+        onClick={toggleNav}
+        id="menuToggle"
+        className={!toggleMenu ? "burger" : "burger burger_open"}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  );
 }
