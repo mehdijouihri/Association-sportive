@@ -35,7 +35,7 @@ function Formulaire() {
             id="Prenom"
             type="prenom" 
             name="Prénom"
-            placeholder=' prenom'
+            placeholder=' prénom'
             />
       </div>      
       </container>
@@ -56,7 +56,7 @@ function Formulaire() {
         id="Numero"
         type="numero" 
         name="Numéro de tél"
-        placeholder=' numero  Tel'
+        placeholder=' Tel'
       />
       </div>
       
