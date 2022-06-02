@@ -1,0 +1,88 @@
+.affiche_info{
+    width: 100%;
+    padding: 15rem 0 10rem;
+    background-image: url('../assets/images/voley1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.titre_info{
+    text-align: left;
+    margin-left: 10%;
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+}
+.info_titre{
+    display: flex;
+    align-items: center;
+    
+}
+.titre_phrase{
+    display: flex;
+    align-items: center;    
+}
+.info_phrase{
+    margin: 0 0 0 20px;
+}
+.info_actu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    
+}
+.information{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.info_detail{
+    margin: 0 10px 0 10px;
+}
+.info_utile_detail{
+    border: 3px solid black;
+    margin: 30px;
+}
+.detail{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+li{
+    display: flex;
+}
+@media screen and (max-width: 1000px) {
+    .info_actu{
+        grid-template-columns: 1fr 1fr;
+    }
+    .information{
+        grid-template-columns: 1fr;
+    }
+    .detail{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .titre_info{
+        font-size: 34px;
+    }
+    .titre_phrase{
+        width: 100%;
+       justify-content: space-around;    
+    }
+    .info_titre{
+        font-size: 24px;
+    }
+    .info_actu{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .info_phrase{
+        margin: 0;
+    }
+    .info_utile_detail{
+        margin: 0 0 20px 0;
+    }
+}
