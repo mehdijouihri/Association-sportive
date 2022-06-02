@@ -1,14 +1,13 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import Contact from '../components/formulaireContact';
 
-
-const Contact = () => {
+const ContactPage = () => {
     return (
         <div>
-            <Navigation />
-            <h1>Formulaire de contact</h1>
+            <Contact />
         </div>
     );
 };
 
-export default Contact;
+export default ContactPage;
