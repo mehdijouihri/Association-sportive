@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from '../components/Header/Navbar';
 import '../styles/infos-utiles.css'
 import CardActu from '../components/CardActu/CardActu';
-import Footer from '../components/footer/footer';
+import Footer from '../components/Footer/Footer';
 import ButtonPrimary from '../components/ButtonPrimary/ButtonPrimary';
 import ButtonSecondary from '../components/ButtonSecondary/ButtonSecondary';
 import { POSTS } from '../assets/data/Posts';

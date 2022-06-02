@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from '../components/Header/Navbar';
 import '../styles/membre.css';
 import CardPlayer from '../components/CardPlayer/CardPlayer';
-import Footer from '../components/footer/footer';
+import Footer from '../components/Footer/Footer';
 import { PLAYERS } from '../assets/data/Players';
 
 
