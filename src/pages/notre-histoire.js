@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Header/Navbar'
 import voley1 from '../assets/images/voley1.jpeg'
-import voley2 from '../assets/images/voley2.jpeg'
+import voley2 from '../assets/images/voley2.JPG'
 import  '../styles/notre-histoire.css'
 import ButtonPrimary from '../components/ButtonPrimary/ButtonPrimary'
 import ButtonSecondary from '../components/ButtonSecondary/ButtonSecondary'

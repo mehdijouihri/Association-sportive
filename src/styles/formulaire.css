@@ -9,7 +9,7 @@
     
 }
 .np input{
-    background-color: rgb(195, 200, 199); 
+    background-color:rgb(206, 210, 245);
     width: 300px;
     height: 30px;
     border: none;
@@ -19,16 +19,14 @@
 
 .tm {
     margin-top: 2%;
-
     width: 900px;
-    
     margin-left: 10%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 .tm input{
-    background-color: rgb(195, 200, 199); 
+    background-color:rgb(206, 210, 245);
     width: 300px;
     height: 30px;
     border: none;
@@ -40,7 +38,8 @@ textarea{
     margin-top: .5%;
     margin-left: 10%;
     height: 150px;
-    width: 900px;;
+    width: 900px;
+    background-color:rgb(206, 210, 245);
 }
 
 textarea{
@@ -68,11 +67,14 @@ button:hover{
 
 }
 .titre{
+    
+    font-size: large;
+    font-family:fantasy;
     margin-top: 2%;
     margin-left: 10%;
     text-align: left;
 }
 .titre span{
-
-    color: rgb(96, 96, 98);
+    font-weight: 50px;
+    font-family: cursive;
 }
