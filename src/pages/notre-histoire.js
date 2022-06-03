@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Header/Navbar'
-import voley1 from '../assets/Images/voley1.jpeg'
-import voley2 from '../assets/Images/voley2.jpeg'
+import voley1 from '../assets/images/voley1.jpeg'
+import voley2 from '../assets/images/voley2.jpeg'
 import  '../styles/notre-histoire.css'
 import ButtonPrimary from '../components/ButtonPrimary/ButtonPrimary'
 import ButtonSecondary from '../components/ButtonSecondary/ButtonSecondary'
-import Footer from '../components/Footer/Footer'
+import Footer from '../components/footer/footer'
 
 
 
