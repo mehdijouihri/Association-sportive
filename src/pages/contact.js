@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from '../components/Header/Navbar';
-import histoire from '../assets/images/histoire.jpg'
-import actu01 from '../assets/images/actu01.jpg'
+import histoire from '../assets/Images/histoire.jpg'
+import actu01 from '../assets/Images/actu01.jpg'
 import '../styles/contact.css'
-import Footer from '../components/footer/footer'
+import Footer from '../components/Footer/Footer'
 import Formulaire from '../components/Formulaire'
 import '../styles/contact.css'
 

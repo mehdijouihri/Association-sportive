@@ -1,6 +1,6 @@
 import React from "react";
 import "./FicheMembres.css";
-import membre1 from "../../assets/images/membre1.jpg";
+import membre1 from "../../assets/Images/membre1.jpg";
 
 const FicheMembres = () => {
   return (

@@ -1,6 +1,6 @@
 export const PLAYERS = [
   {
-    "img": require('../images/player01.jpg'),
+    "img": require('../Images/player01.jpg'),
     "name": "Jean Patry",
     "role": "arriere droit",
     "birth": "1996-12-27",
@@ -10,7 +10,7 @@ export const PLAYERS = [
     "HBlock": 317
   },
   {
-    "img": require('../images/player01.jpg'),
+    "img": require('../Images/player01.jpg'),
     "name": "Jeannette Kappi",
     "role": "avant droit",
     "birth": "1997-08-20",
@@ -20,7 +20,7 @@ export const PLAYERS = [
     "HBlock": 302
   },
   {
-    "img": require('../images/player01.jpg'),
+    "img": require('../Images/player01.jpg'),
     "name": "Jenia Grebennikov",
     "role": "avant gauche",
     "birth": "1994-01-25",
@@ -30,7 +30,7 @@ export const PLAYERS = [
     "HBlock": 313
   },
   {
-    "img": require('../images/player01.jpg'),
+    "img": require('../Images/player01.jpg'),
     "name": "Bastien Simplion",
     "role": "arrière gauche",
     "birth": "1996-12-27",
@@ -40,7 +40,7 @@ export const PLAYERS = [
     "HBlock": 311
   },
   {
-    "img": require('../images/player01.jpg'),
+    "img": require('../Images/player01.jpg'),
     "name": "Nicolas Le Goff",
     "role": "arrière centre",
     "birth": "1996-04-10",
@@ -50,7 +50,7 @@ export const PLAYERS = [
     "HBlock": 303
   },
   {
-    "img": require('../images/player01.jpg'),
+    "img": require('../Images/player01.jpg'),
     "name": "Daryl Bultor",
     "role": "arriere droit",
     "birth": "1993-01-25",

@@ -12,10 +12,10 @@ const Footer = () => {
                 </div>
                 <div className='footermilieu'>
                     <div className='logofooter'>
-                        <img src={require('../../assets/images/simplon.logo.png')}></img>
-                        <img src={require('../../assets/images/logo_adidas.png')}></img>
-                        <img src={require('../../assets/images/logo_ffvolley.png')}></img>
-                        <img src={require('../../assets/images/logo_hdf.png')}></img>
+                        <img src={require('../../assets/Images/simplon.logo.png')}></img>
+                        <img src={require('../../assets/Images/logo_adidas.png')}></img>
+                        <img src={require('../../assets/Images/logo_ffvolley.png')}></img>
+                        <img src={require('../../assets/Images/logo_hdf.png')}></img>
                     </div>
                     <div className='barrefooter'>
 
