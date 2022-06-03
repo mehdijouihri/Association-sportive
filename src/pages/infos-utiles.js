@@ -40,7 +40,7 @@ const InfosUtiles = () => {
             </div>
             <section className="histoire">
                 <div className="container">
-                    <img src={require("../assets/images/histoire.jpg")} alt="Photo des joueurs" />
+                    <img src={require("../assets/Images/histoire.jpg")} alt="Photo des joueurs" />
                     <div className="histoire_details">
                         <h4>Notre club de Volley existe depuis 1976</h4>
                         <p>

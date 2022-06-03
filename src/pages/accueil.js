@@ -9,7 +9,7 @@ import CardPlayer from "../components/CardPlayer/CardPlayer";
 import RedArrow from "../components/RedArrow/RedArrow.js";
 import ButtonPrimary from '../components/ButtonPrimary/ButtonPrimary';
 import ButtonSecondary from '../components/ButtonSecondary/ButtonSecondary';
-import Footer from '../components/footer/footer';
+import Footer from '../components/Footer/Footer';
 
 const Accueil = () => {
   return (
@@ -70,7 +70,7 @@ const Accueil = () => {
       </section>
       <section className="histoire">
         <div className="container">
-          <img src={require("../assets/images/histoire.jpg")} alt="Photo des joueurs" />
+          <img src={require("../assets/Images/histoire.jpg")} alt="Photo des joueurs" />
           <div className="histoire_details">
             <h4>Notre club de Volley existe depuis 1976</h4>
             <p>
