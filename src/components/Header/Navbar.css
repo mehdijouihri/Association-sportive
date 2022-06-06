@@ -155,6 +155,8 @@ nav {
     border-bottom: 1px solid #dadada;
   }
   .items {
+    display: flex;
+    justify-content: center;
     width: 100%;
     text-align: center;
     padding: 20px 0;

@@ -19,6 +19,7 @@
 .actu_details {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .actu_details p {
@@ -45,11 +46,4 @@
 .card_actu h2 {
     font-size: 20px;
     margin-top: 13px;
-}
-
-@media screen and (max-width: 1000px) {
-    .card_actu {
-        width: 380px;
-        margin: 0;
-    }
 }

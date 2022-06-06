@@ -40,8 +40,21 @@ h3 {
   background: #fff;
 }
 
+.histoire_details h4 {
+  margin-top: 15px;
+}
+
 .histoire img {
   width: 100%;
+}
+
+.histoire .buttons_group {
+  display: flex;
+  padding-top: 20px;
+}
+
+.histoire a:nth-child(1) {
+  margin-right: 10px;
 }
 
 .histoire .buttons_group a {
