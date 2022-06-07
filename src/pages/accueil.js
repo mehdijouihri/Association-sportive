@@ -79,7 +79,7 @@ const Accueil = () => {
               Maecenas ornare ultrices sem. Nam at quam urna. Sed sit amet mi
               pretium, ultrices elit lacinia, malesuada nisl. Suspendisse potenti.
               Vestibulum luctus massa quis augue tincidunt, non venenatis turpis
-              viverra. In imperdiet nec risus a auctor. Cras et bibendum tortor.
+              viverra. n imperdiet nec risus a auctor. Cras et bibendum tortor.
               Donec dignissim auctor blandit.
             </p>
             <div className="buttons_group">
