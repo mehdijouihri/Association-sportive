@@ -1,6 +1,6 @@
 .affiche{
     width: 100%;
-    padding: 15rem 0 10rem;
+    padding: 10rem 0 10rem;
     background-image: url('../assets/Images/histoire.jpg');
     background-size: cover;
     background-position: center;
@@ -19,9 +19,7 @@
     align-items: center;
     margin:40px;
 }
-.equipe_phrase{
-    margin: 0 0 0 20px;
-}
+
 .equipe_joueur{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -34,13 +32,29 @@
     margin: 40px;
 
 }
-.membre_phrase{
-    margin: 0 0 0 20px;
-}
+
 .membre_joueur{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+}
+
+.membres {
+    background: #FFF;
+}
+
+.membres .player_details {
+    border-width: 0px 1px 1px;
+    border-style: solid;
+    border-color: var(--blue);
+}
+
+.membres .card_player {
+    display: grid;
+}
+
+.equipe, .membres {
+    padding: 1.5rem 0;
 }
 
 @media screen and (max-width: 1000px) {

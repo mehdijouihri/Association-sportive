@@ -1,0 +1,43 @@
+#pageDestination {
+  display: flex;
+  margin: 25px 15px;
+}
+#pageDestination P {
+  margin: 2px;
+}
+
+.temp_actu {
+    max-width: 750px;
+    text-align: center;
+    padding: 45px 65px;
+    margin: 3rem auto 5rem auto;
+    background: #FFF;
+}
+
+.temp_actu h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+
+.temp_actu img {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+    object-fit: cover;
+}
+
+.content_actu {
+    text-align: left;
+}
+
+.actu_details {
+    justify-content: center;
+}
+
+@media screen and (max-width: 780px) {
+    .temp_actu {
+        padding: 2rem;
+        margin: 1.5rem;
+    }
+}
