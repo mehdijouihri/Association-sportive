@@ -1,88 +1,76 @@
-.affiche_info{
-    width: 100%;
-    padding: 15rem 0 10rem;
-    background-image: url('../assets/Images/voley1.jpeg');
-    background-size: cover;
-    background-position: center;
+.affiche_info {
+  width: 100%;
+  padding: 10rem 0 10rem;
+  background-image: url("../assets/Images/voley1.jpeg");
+  background-size: cover;
+  background-position: center;
 }
-.titre_info{
-    text-align: left;
-    margin-left: 10%;
-    color: white;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 80px;
+.titre_info {
+  text-align: left;
+  margin-left: 10%;
+  color: white;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
 }
-.info_titre{
-    display: flex;
-    align-items: center;
-    
+.info_titre {
+  display: flex;
+  align-items: center;
 }
-.titre_phrase{
-    display: flex;
-    align-items: center;    
+.titre_phrase {
+  display: flex;
+  align-items: center;
 }
-.info_phrase{
-    margin: 0 0 0 20px;
+.info_phrase {
+  margin: 0 0 0 20px;
 }
-.info_actu{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    
+.information {
+  display: flex;
+  justify-items: center;
+  gap: 30px;
+  padding: 4rem 0;
 }
-.information{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+.info_detail {
+  font-size: 24px;
 }
-.info_detail{
-    margin: 0 10px 0 10px;
+.info_utile_detail {
+  display: block;
+  max-width: 380px;
+  width: 100%;
+  border: 1px solid var(--blue);
+  background: #fff;
+  box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 25px;
 }
-.info_utile_detail{
-    border: 3px solid black;
-    margin: 30px;
+.detail {
+  line-height: 40px;
 }
-.detail{
-    width: 300px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-li{
-    display: flex;
+li {
+  display: flex;
 }
 @media screen and (max-width: 1000px) {
-    .info_actu{
-        grid-template-columns: 1fr 1fr;
-    }
-    .information{
-        grid-template-columns: 1fr;
-    }
-    .detail{
-        width: 400px;
-    }
+  .information {
+    grid-template-columns: 1fr;
+  }
+  .detail {
+    width: 400px;
+  }
 }
 @media screen and (max-width: 500px) {
-    .titre_info{
-        font-size: 34px;
-    }
-    .titre_phrase{
-        width: 100%;
-       justify-content: space-around;    
-    }
-    .info_titre{
-        font-size: 24px;
-    }
-    .info_actu{
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-    .info_phrase{
-        margin: 0;
-    }
-    .info_utile_detail{
-        margin: 0 0 20px 0;
-    }
+  .titre_info {
+    font-size: 34px;
+  }
+  .titre_phrase {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .info_titre {
+    font-size: 24px;
+  }
+  .info_phrase {
+    margin: 0;
+  }
+  .info_utile_detail {
+    margin: 0 0 20px 0;
+  }
 }
