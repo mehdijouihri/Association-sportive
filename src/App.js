@@ -7,6 +7,7 @@ import InfosUtiles from "./pages/infos-utiles";
 import Histoire from "./pages/notre-histoire";
 import Membres from "./pages/membres";
 import PficheMembres from "./pages/fiche-membres";
+import Actu from "./pages/actu";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/accueil" element={<Accueil />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/fiche-membres" element={<PficheMembres/>} />
+        <Route path="/actu" element={<Actu />} />
         <Route path="/infos-utiles" element={<InfosUtiles />} />
         <Route path="/membres" element={<Membres />} />
         <Route path="/notre-histoire" element={<Histoire />} />
