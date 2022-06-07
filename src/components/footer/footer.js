@@ -12,20 +12,20 @@ const Footer = () => {
                 </div>
                 <div className='footermilieu'>
                     <div className='logofooter'>
-                        <img src={require('../../assets/Images/simplon.logo.png')}></img>
-                        <img src={require('../../assets/Images/logo_adidas.png')}></img>
-                        <img src={require('../../assets/Images/logo_ffvolley.png')}></img>
-                        <img src={require('../../assets/Images/logo_hdf.png')}></img>
+                        <img src={require('../../assets/Images/SIMPLON.png')}></img>
+                        <img src={require('../../assets/Images/ADIDAS.png')}></img>
+                        <img src={require('../../assets/Images/FFVolley.png')}></img>
+                        <img src={require('../../assets/Images/HDF.png')}></img>
                     </div>
                     <div className='barrefooter'>
 
                     </div>
                     <div className='lienmilieufooter'>
-                        <a href='#'>ACCEUIL</a>
-                        <a href='#'>INFOS PRATIQUES</a>
-                        <a href='#'>MEMBRES</a>
-                        <a href='#'>HISTOIRE</a>
-                        <a href='#'>CONTACT</a>
+                        <a href='/'>ACCUEIL</a>
+                        <a href='/infos-utiles'>INFOS UTILES</a>
+                        <a href='/membres'>MEMBRES</a>
+                        <a href='/notre-histoire'>HISTOIRE</a>
+                        <a href='/contact'>CONTACT</a>
                     </div>
                 </div>
                 <div className='footerbas'>

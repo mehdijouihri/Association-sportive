@@ -100,8 +100,8 @@
     }
     .footermilieu img {
         display: flex;
-        max-width: 100px;
         max-height: 40px;
+        filter: grayscale(100%);
     }
     .logofooter {
         display: flex;
@@ -171,14 +171,17 @@
     color: white;
     margin: 25px;
 }
+.footermilieu img:nth-child(1) {
+    max-height: 50px;
+}
 .footermilieu img {
     display: flex;
-    max-width: 160px;
-    max-height: 90px;
+    max-height: 65px;
 }
 .logofooter {
     display: flex;
     padding: 0px;
+    align-items: center;
 }
 .logofooter img {
     margin-left: 100px;
