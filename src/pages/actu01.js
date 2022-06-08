@@ -7,14 +7,9 @@ const Actu = () => {
   return (
     <div>
       <Navbar />
-      <div id="pageDestination">
-        <p>Accueil &gt;</p>
-        <p>Infos utiles &gt;</p>
-        <p>Titre actu</p>
-      </div>
       <section className="temp_actu">
         <div>
-          <h1>Titre de notre actualités</h1>
+          <h1>European Golden League : Les Bleues dans le grand bain</h1>
           <div className="actu_details">
             <p className="actu_category">CLUB</p>
             <p className="actu_date">18 mai 2022</p>
