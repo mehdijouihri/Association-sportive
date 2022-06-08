@@ -6,6 +6,10 @@
     margin-bottom: 35px;
 }
 
+.card_actu a {
+    color: var(--blue);
+}
+
 .card_actu:last-child {
     margin-right: 0px;
 }
