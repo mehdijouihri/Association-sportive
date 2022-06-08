@@ -14,11 +14,16 @@
     width: 100%;
     max-width: 380px;
     object-fit: cover;
+    object-position: top;
 }
 
 .player_details {
     background: #fff;
     padding: 20px 25px;
+}
+
+.player_details a {
+    color: var(--blue);
 }
 
 .player_role {

@@ -1,47 +1,45 @@
 import React from "react";
 import "./FicheMembres.css";
-import membre1 from "../../assets/Images/membre1.jpg";
 
-const FicheMembres = () => {
+const FicheMembres = (props) => {
   return (
     <>
       <div id="pageDestination">
         <p>Accueil &gt;</p>
-        <p>Membres &gt;</p>
-        <p>Fiche du membre</p>
+        <a href="/membres">Membres</a>
       </div>
 
       <div className="whitebg">
         <div className="membre1">
-          <img src={membre1} />
+          <img src={require(`../../assets/Images/${props.id}.jpg`)} />
         </div>
 
         <div className="descriptionmembre">
           <strong>
-            <h3>Jean PATRY</h3>
+            <h3>{props.nom}</h3>
           </strong>
-          <p className="numero">N°4 - Pointu</p>
+          <p className="numero">{props.role}</p>
           <p>
-            <strong>Date de naissance :</strong> 27/12/1996 à Montpellier
+            <strong>Date de naissance :</strong> {props.date}
           </p>
           <p>
-            <strong>Taille :</strong> 2m07
+            <strong>Taille :</strong> {props.taille}
           </p>
           <p>
-            <strong>Poids :</strong> 94kg
+            <strong>Poids :</strong> {props.kg}
           </p>
           <p>
-            <strong>Hauteur d'attaque :</strong> 3m34
+            <strong>Hauteur d'attaque :</strong> {props.attaq}
           </p>
           <p>
-            <strong>Hauteur de block :</strong> 3m17
+            <strong>Hauteur de block :</strong> {props.block}
           </p>
           <h2>Palmarès international</h2>
           <p>
-            <strong>2021 :</strong> Médaille de bronze Volleyball Nations League
+            <strong>{props.datePalma1} :</strong> {props.palma1}
           </p>
           <p>
-            <strong>2018 :</strong> Médaille d'argent Volleyball Nations League
+            <strong>{props.datePalma2} :</strong> {props.palma2}
           </p>
         </div>
       </div>
