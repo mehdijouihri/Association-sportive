@@ -32,6 +32,7 @@ const InfosUtiles = () => {
                   date={data.date}
                   title={data.title}
                   key={key}
+                  id={data.id}
                 />
               );
             })}
@@ -47,17 +48,19 @@ const InfosUtiles = () => {
           <div className="histoire_details">
             <h4>Notre club de Volley existe depuis 1976</h4>
             <p>
-              Suspendisse potenti. Suspendisse consequat tempus lobortis. Morbi
-              faucibus tortor sed justo ultricies, in placerat dui facilisis.
-              Maecenas ornare ultrices sem. Nam at quam urna. Sed sit amet mi
-              pretium, ultrices elit lacinia, malesuada nisl. Suspendisse
-              potenti. Vestibulum luctus massa quis augue tincidunt, non
-              venenatis turpis viverra. In imperdiet nec risus a auctor. Cras et
-              bibendum tortor. Donec dignissim auctor blandit.
+              En pleine restructuration, le Luc Volley accueille les joueurs
+              (ses) de 5 à 77 ans ! Avec une volonté de pouvoir permettre à
+              chacun de venir pratiquer selon son niveau, nous proposons à nos
+              licenciés un environnement convivial et adapté à leurs projets.
+              Rejoignez ainsi un club et une équipe de bénévoles dynamiques,
+              implantés sur le territoire Lillois et rayonnant sur la partie
+              Nord de la France ! A l’image du Luc Open Volley, le club
+              travaille activement sur son développement afin de proposer un
+              événement inédit répondant aux attentes de l’ensemble des joueurs
+              (ses) ainsi qu’à ses partenaires.
             </p>
             <div className="buttons_group">
-              <ButtonPrimary value="Nous rejoindre" />
-              <ButtonSecondary value="En savoir plus" />
+              <ButtonSecondary value="En savoir plus" href="notre-histoire" />
             </div>
           </div>
         </div>

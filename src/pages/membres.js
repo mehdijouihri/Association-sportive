@@ -36,29 +36,6 @@ const Membres = () => {
           </div>
         </section>
       </div>
-      <div className="membres">
-        <section className="container">
-          <div className="intro_home">
-            <div>
-              <h2>Membres</h2>
-              <p className="membre_phrase">Ceux qui font vivre le club</p>
-            </div>
-          </div>
-          <div className="equipe_joueur">
-            {PLAYERS.slice(0, 3).map((data, key) => {
-              return (
-                <CardPlayer
-                  img={data.img}
-                  name={data.name}
-                  role={data.role}
-                  link={data.link}
-                  key={key}
-                />
-              );
-            })}
-          </div>
-        </section>
-      </div>
       <Footer />
     </>
   );
