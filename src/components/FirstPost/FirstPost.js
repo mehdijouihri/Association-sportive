@@ -9,7 +9,9 @@ const FirstPost = (props) => {
            <div className="firstpost_box">
            <div className="firstpost_details">
                <p>{props.category}</p>
+               <a href={props.id}>
                <h1>{props.title}</h1>
+               </a>
                <RedArrow />
            </div>
            </div>
