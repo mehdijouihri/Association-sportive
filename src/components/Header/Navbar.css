@@ -35,6 +35,8 @@ nav {
 }
 
 .items:hover {
+  background-color: rgb(219, 190, 137);
+  box-shadow: 10px 5px 5px black;
   border-bottom: 2px solid var(--blue);
 }
 
