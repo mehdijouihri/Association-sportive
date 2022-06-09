@@ -6,6 +6,8 @@
 
 .firstpost .firstpost_img {
   max-width: 100%;
+  box-shadow:8px 8px 10px 0 rgba(9, 6, 165, 0.5);
+
 }
 
 .firstpost_details {
@@ -65,7 +67,8 @@
   }
   .firstpost_details {
     top: 65px;
-    left: -65px;
+    left: 30px;
+    box-shadow: 10px 5px 5px rgb(138 41 86);
   }
 }
 

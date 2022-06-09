@@ -25,6 +25,8 @@
     height: 400px;
     margin: 20px 0;
     object-fit: cover;
+    box-shadow:8px 8px 10px 0 rgba(202, 67, 13, 0.5);
+
 }
 
 .content_actu {
