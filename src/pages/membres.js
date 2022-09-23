@@ -3,7 +3,7 @@ import Navigation from "../components/Header/Navbar";
 import "../styles/membre.css";
 import "../styles/accueil.css";
 import CardPlayer from "../components/CardPlayer/CardPlayer";
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/footer/Footer.js";
 import { PLAYERS } from "../assets/data/Players";
 
 const Membres = () => {

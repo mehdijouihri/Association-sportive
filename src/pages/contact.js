@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Header/Navbar";
 import histoire from "../assets/Images/histoire.jpg";
 import actu01 from "../assets/Images/actu01.jpg";
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/footer/Footer.js";
 import "../styles/contact.css";
 
 const Contact = () => {

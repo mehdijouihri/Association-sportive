@@ -3,10 +3,11 @@ import Navigation from "../components/Header/Navbar";
 import "../styles/infos-utiles.css";
 import "../styles/accueil.css";
 import CardActu from "../components/CardActu/CardActu";
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/footer/Footer.js";
 import ButtonPrimary from "../components/ButtonPrimary/ButtonPrimary";
 import ButtonSecondary from "../components/ButtonSecondary/ButtonSecondary";
 import { POSTS } from "../assets/data/Posts";
+
 
 const InfosUtiles = () => {
   return (
